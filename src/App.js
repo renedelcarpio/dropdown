@@ -1,9 +1,7 @@
+import Dropdown from './Dropdown/Dropdown';
+
 const App = () => {
-	return (
-		<div>
-			<h1>dropdown</h1>
-		</div>
-	);
+	return <Dropdown />;
 };
 
 export default App;
