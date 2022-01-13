@@ -1,5 +1,9 @@
 $font-primary: 'Roboto';
 $font-secondary: 'Ubuntu';
+$color-primary: #00a6a6;
+$color-secondary: #f08700;
+$color-alert: #92140c;
+$color-light: #bbdef0;
 
 * {
   margin: 0;
@@ -9,4 +13,5 @@ $font-secondary: 'Ubuntu';
 
 html {
   font-family: $font-primary;
+  font-size: 62.5%;
 }
