@@ -6,6 +6,10 @@ import axios from 'axios';
 import { useState } from 'react';
 
 const Dropdown = () => {
+	const [results, setResults] = useState([]);
+	const [currentData, setCurrentData] = useState(0);
+	const [selectedOption, setSelectedOption] = useState('');
+
 	const baseURL =
 		'https://back.implementaconbubo.com/v1/sales/customer/?simple=true';
 
@@ -32,12 +36,6 @@ const Dropdown = () => {
 			},
 		},
 	});
-
-	const [results, setResults] = useState([]);
-	const [currentData, setCurrentData] = useState(0);
-	const [selectedOption, setSelectedOption] = useState(null);
-
-	console.log(selectedOption);
 
 	const getData = async () => {
 		const { results } = await AuthAxios.get(baseURL);

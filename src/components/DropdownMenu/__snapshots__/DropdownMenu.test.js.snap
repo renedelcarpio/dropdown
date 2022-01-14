@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in DropdownMenu component should match with snapshot 1`] = `
+<div
+  className="dropdown__menu"
+  onClick={[Function]}
+>
+  Dropdown Menu
+</div>
+`;
