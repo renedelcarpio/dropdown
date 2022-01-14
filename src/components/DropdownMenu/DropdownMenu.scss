@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.dropdown__menu {
+  border: 0.2rem solid $color-primary;
+  border-radius: 1rem;
+  color: $color-secondary;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.2rem 2.5rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-light;
+  }
+}
+
+.dropdown__menu--open {
+  background-color: $color-primary;
+  border: 0.2rem solid $color-primary;
+  border-radius: 1rem;
+  color: $color-light;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.2rem 2.5rem;
+}
+
+.dropdown__items {
+  position: absolute;
+  width: 25rem;
+}
