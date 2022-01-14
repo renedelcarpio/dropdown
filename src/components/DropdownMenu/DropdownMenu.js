@@ -1,6 +1,6 @@
 import './DropdownMenu.scss';
 
-import DropdownItem from '../DropdownItem/DropdownItem/DropdownItem';
+import DropdownItem from '../DropdownItem/DropdownItem';
 import React from 'react';
 import { useState } from 'react/cjs/react.development';
 
