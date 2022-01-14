@@ -19,7 +19,7 @@ const Dropdown = () => {
 				filter: {
 					filters: [
 						{
-							field: 'reference_name' || selectedOption,
+							field: `${selectedOption} ? ${selectedOption} : 'reference_name'`,
 							operator: 'contains',
 							ignoreCase: true,
 							value: '',
