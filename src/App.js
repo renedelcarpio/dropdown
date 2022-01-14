@@ -1,4 +1,4 @@
-import Dropdown from './Dropdown/Dropdown';
+import Dropdown from './components/Dropdown/Dropdown';
 
 const App = () => {
 	return <Dropdown />;
