@@ -1,0 +1,14 @@
+@import '../../../index.scss';
+
+.item__container {
+  background-color: $color-light;
+  color: $color-primary;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
