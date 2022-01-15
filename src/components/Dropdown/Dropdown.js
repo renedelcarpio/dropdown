@@ -38,17 +38,24 @@ const Dropdown = () => {
 	});
 
 	/**
-	 *
+	 *This function calls the API when DropdownMenu component is clicked
 	 */
 	const getData = async () => {
 		const { results } = await AuthAxios.get(baseURL);
 		setResults(results);
 	};
 
+	/**
+	 * This function take the data and returns the first 20 elements
+	 * @returns Return the firs 20 elements of data
+	 */
 	const filteredData = () => {
 		return results.slice(currentData, currentData + 20);
 	};
 
+	/**
+	 * This function get new elements of data when scroll down.
+	 */
 	const loadMoreData = () => {
 		setCurrentData(currentData + 10);
 	};
