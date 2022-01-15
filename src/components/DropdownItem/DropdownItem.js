@@ -2,7 +2,7 @@ import './DropdownItem.scss';
 
 /**
  * @param {String} children This is the string that the tag will show
- * @param {function}	onClick	This function is called in father component.
+ * @param {function}	onClick	This function is called in father component, DropdownMenu.
  * @returns Returns the string assigned to children
  */
 
