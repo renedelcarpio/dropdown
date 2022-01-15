@@ -37,6 +37,9 @@ const Dropdown = () => {
 		},
 	});
 
+	/**
+	 *
+	 */
 	const getData = async () => {
 		const { results } = await AuthAxios.get(baseURL);
 		setResults(results);
@@ -52,12 +55,12 @@ const Dropdown = () => {
 
 	return (
 		<div>
-			<button className='dropdown__button' onClick={getData}>
-				<DropdownMenu
-					setSelectedOption={setSelectedOption}
-					value={selectedOption}
-				/>
-			</button>
+			<DropdownMenu
+				setSelectedOption={setSelectedOption}
+				value={selectedOption}
+				className='dropdown__button'
+				onClick={getData}
+			/>
 			{results &&
 				filteredData().map(({ id, reference_name, nit, name }) => {
 					return (

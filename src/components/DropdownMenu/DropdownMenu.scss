@@ -6,8 +6,11 @@
   color: $color-secondary;
   font-size: 1.5rem;
   font-weight: bold;
+  margin: 2rem;
   padding: 1.2rem 2.5rem;
+  text-align: center;
   transition: all 0.3s;
+  width: 25rem;
 
   &:hover {
     background-color: $color-primary;
@@ -22,10 +25,16 @@
   color: $color-light;
   font-size: 1.5rem;
   font-weight: bold;
+  margin: 2rem;
   padding: 1.2rem 2.5rem;
+  text-align: center;
+  transition: all 0.3s;
+  width: 25rem;
 }
 
 .dropdown__items {
+  margin-left: 2rem;
+  margin-top: -1.5rem;
   position: absolute;
   width: 25rem;
 }

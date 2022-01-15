@@ -2,16 +2,11 @@
 
 exports[`Tests in Dropdown component should match with snapshot 1`] = `
 <div>
-  <button
-    className="dropdown__button"
+  <div
+    className="dropdown__menu"
     onClick={[Function]}
   >
-    <div
-      className="dropdown__menu"
-      onClick={[Function]}
-    >
-      Dropdown Menu
-    </div>
-  </button>
+    Dropdown Menu
+  </div>
 </div>
 `;
